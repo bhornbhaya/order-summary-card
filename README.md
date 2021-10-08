@@ -40,6 +40,8 @@
 
 ### Continued development
 
+- Add dark mode feature
+
 ## Acknowledgements
 
 Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
