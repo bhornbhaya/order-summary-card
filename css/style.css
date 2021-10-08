@@ -16,7 +16,7 @@ html {
 body {
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1.6;
-  background-color: #f5f7ff;
+  background-color: #e0e8ff;
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
 }
@@ -89,11 +89,11 @@ body {
 }
 
 .annual-plan__text--main {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .annual-plan__text--sub {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #7280a7;
 }
 
@@ -105,8 +105,14 @@ body {
 }
 
 .annual-plan__text--change {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
+  color: #3829e0;
+}
+
+.annual-plan__text--change:hover {
+  color: #5c50a5;
+  text-decoration: none;
 }
 
 .btn {
@@ -115,7 +121,7 @@ body {
   border: none;
   border-radius: 1rem;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   background-color: #3829e0;
   font-family: inherit;
@@ -125,8 +131,11 @@ body {
           box-shadow: 0 1rem 4rem rgba(101, 48, 161, 0.25);
 }
 
+.btn:hover {
+  background-color: #5c50a5;
+}
+
 .btn:active {
-  background-color: #8a63c9;
   -webkit-transform: translateY(0.5rem);
           transform: translateY(0.5rem);
 }
@@ -142,10 +151,14 @@ body {
   display: block;
   margin: 0 auto;
   margin-bottom: 3rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #7280a7;
   text-decoration: none;
+}
+
+.cancel:hover {
+  color: #1f2f56;
 }
 
 .container {
