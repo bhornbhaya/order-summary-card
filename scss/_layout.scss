@@ -1,0 +1,23 @@
+.container {
+    background-color: #fff;
+   
+
+    @media only screen and (min-width: $bp-mobile){
+        border-radius: 2rem;
+        max-width: 32rem;
+        max-height: min-content;
+        margin: 9rem auto;
+        box-shadow: 0 1rem 4rem rgba(149, 138, 158, 0.25);
+    }
+
+    @media only screen and (min-width: $bp-desktop){
+        border-radius: 2rem;
+        max-width: 40rem;
+        max-height: min-content;
+        margin: 9rem auto;
+        box-shadow: 0 1rem 4rem rgba(149, 138, 158, 0.25);
+    }
+
+   
+   
+}

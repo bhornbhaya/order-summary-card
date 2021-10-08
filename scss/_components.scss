@@ -1,0 +1,105 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    &__photo {
+        width: 100%;
+        margin-bottom: 3rem;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+
+    &__text {
+        text-align: center;
+        &--main{
+            margin-bottom: 2rem;
+            font-size: 2.2rem;
+        }
+
+        &--sub {
+            word-wrap: break-word;
+            margin: 0 3rem;
+            font-size: 1.6rem;
+            color: $color-neutral-desaturated;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.annual-plan {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    background-color: $color-neutral-pale;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    &__icon {
+
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        
+        &--main {
+            font-size: 1.6rem;
+        }
+
+        &--sub {
+            font-size: 1.6rem;
+            color: $color-neutral-desaturated;
+        }
+        &--box {
+             margin-left: auto;
+             align-self: center;
+        }
+        &--change {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.btn {
+    margin: 0 2rem;
+    padding: 1.4rem;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: $color-primary-bright;
+    font-family: inherit;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    box-shadow: 0 1rem 4rem rgba(101, 48, 161, 0.25);
+
+
+    &:active {
+        background-color: rgba($color: #8a63c9, $alpha: 1.0);
+        transform: translateY(.5rem);
+
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+}
+
+.cancel {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $color-neutral-desaturated;
+    text-decoration: none;
+}
