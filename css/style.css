@@ -38,16 +38,16 @@ body {
   border-top-left-radius: 2rem;
 }
 
-.summary__text {
+.summary__box {
   text-align: center;
 }
 
-.summary__text--main {
+.summary__box__title {
   margin-bottom: 2rem;
   font-size: 2.2rem;
 }
 
-.summary__text--sub {
+.summary__box__desc {
   word-wrap: break-word;
   margin: 0 3rem;
   font-size: 1.6rem;
@@ -55,7 +55,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.annual-plan {
+.summary__plan {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,13 +71,13 @@ body {
 }
 
 @media only screen and (min-width: 60.06em) {
-  .annual-plan {
+  .summary__plan {
     margin-left: 4rem;
     margin-right: 4rem;
   }
 }
 
-.annual-plan__text {
+.summary__plan__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,34 +88,34 @@ body {
   margin-left: 2rem;
 }
 
-.annual-plan__text--main {
+.summary__plan__box__title {
   font-size: 1.4rem;
 }
 
-.annual-plan__text--sub {
+.summary__plan__box__desc {
   font-size: 1.4rem;
   color: #7280a7;
 }
 
-.annual-plan__text--box {
+.summary__plan__link {
   margin-left: auto;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.annual-plan__text--change {
+.summary__plan__link__change {
   font-size: 1.4rem;
   font-weight: 700;
   color: #3829e0;
 }
 
-.annual-plan__text--change:hover {
+.summary__plan__link__change:hover {
   color: #5c50a5;
   text-decoration: none;
 }
 
-.btn {
+.summary__btn {
   margin: 0 2rem;
   padding: 1.4rem;
   border: none;
@@ -131,23 +131,23 @@ body {
           box-shadow: 0 1rem 4rem rgba(101, 48, 161, 0.25);
 }
 
-.btn:hover {
+.summary__btn:hover {
   background-color: #5c50a5;
 }
 
-.btn:active {
+.summary__btn:active {
   -webkit-transform: translateY(0.5rem);
           transform: translateY(0.5rem);
 }
 
 @media only screen and (min-width: 60.06em) {
-  .btn {
+  .summary__btn {
     margin-right: 4rem;
     margin-left: 4rem;
   }
 }
 
-.cancel {
+.summary__cancel {
   display: block;
   margin: 0 auto;
   margin-bottom: 3rem;
@@ -157,7 +157,7 @@ body {
   text-decoration: none;
 }
 
-.cancel:hover {
+.summary__cancel:hover {
   color: #1f2f56;
 }
 
