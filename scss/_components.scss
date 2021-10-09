@@ -60,6 +60,7 @@
                 font-size: 1.4rem;
                 font-weight: 700;
                 color: $color-primary-bright;
+                transition: all 0.2s;
 
                 &:hover {
                     color: $color-hover;
@@ -82,6 +83,7 @@
         margin-bottom: 2rem;
         cursor: pointer;
         box-shadow: 0 1rem 4rem rgba(101, 48, 161, 0.25);
+        transition: all 0.2s;
 
 
         &:hover {
